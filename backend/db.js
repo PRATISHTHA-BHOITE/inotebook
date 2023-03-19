@@ -1,5 +1,5 @@
 const mongoose =require ('mongoose');
-const mongoURI="mongodb://localhst:27017/"
+const mongoURI= 'mongodb://localhost:27017/inotebook'
 
 const connectToMongo=()=>{
     mongoose.connect(mongoURI, ()=>{
